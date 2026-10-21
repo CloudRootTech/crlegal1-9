@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CR Legal | North Carolina Personal Injury Lawyer</title>
+    <meta name="description" content="North Carolina Personal Injury Lawyer">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.crlegalteam.com/wp-content/uploads/2025/03/favicon-cr.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="CR Legal | North Carolina Personal Injury Lawyer">
+    <meta property="og:description" content="North Carolina Personal Injury Lawyer">
+    <meta property="og:image" content="project-media/108/CrL1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/108/CrL1.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="North Carolina Personal Injury Lawyer home">North Carolina Personal Injury Lawyer</a>
+            </h1>
+            <div><a href="facebook.com/crlegalteam" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://www.instagram.com/crlegalteam/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a><a href="linkedin.com/company/cr-legalteam-llp" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/108/CrL1.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">CR Legal</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Understanding Litigation Risk Before Filing</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>A sound case assessment begins by testing whether the available facts support each required element of a claim. A consultation with <a href="https://sfo3.digitaloceanspaces.com/lawfirm/crlegal1/north-carolina-personal-injury-lawyer.html" class="inline-link">North Carolina Personal Injury Lawyer</a> may clarify the applicable duty, likely defenses, and whether another party could bear responsibility. The review should account for conflicting accounts, gaps in documentation, credibility concerns, and the standard of proof. It is equally important to identify facts that may weaken the position rather than relying only on favorable details. North Carolina Personal Injury Lawyer can help organize these questions into a practical framework, allowing a prospective claimant to weigh the case's strengths against its uncertainties.</p>
+                            <p>Procedural requirements can create complications even when the underlying account appears persuasive. Limitation periods, notice rules, jurisdictional issues, and court costs should be examined as part of the initial review, while communications with insurers or opposing parties should remain accurate and consistent. North Carolina Personal Injury Lawyer can assess how these requirements interact with the known facts and whether a proposed course could invite avoidable challenges. North Carolina Personal Injury Lawyer may also help compare negotiation, mediation, and formal litigation, including the effect each route may have on control, privacy, expense, and the pace of resolution. Clear records of key communications and decisions can reduce confusion as the matter develops.</p>
+                            <p>The decision should also account for the remedies realistically available and the resources required to pursue them. North Carolina Personal Injury Lawyer can help assess whether the requested outcome is supported by admissible proof, whether expert input is warranted, and whether opposing arguments could materially alter the expected result. A written evaluation of strengths, weaknesses, costs, and possible outcomes gives decision-makers a measured basis for choosing their next step. It can also prevent assumptions from becoming strategy and make later discussions more focused, regardless of whether the matter proceeds through settlement or a court process.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/109/CrL2.jfif" loading="lazy" decoding="async" alt="North Carolina Personal Injury Lawyer image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">Information Counsel Needs From You</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Before an initial legal consultation, gather a clear account of what happened, including the date, location, people present, and actions taken immediately afterward. A North Carolina Personal Injury Lawyer can use those details more effectively when they are arranged in chronological order rather than recalled from scattered messages. Preserve original notices, receipts, photographs, appointment confirmations, and relevant account records, and note where each item came from. If you have already spoken with an insurer, employer, property owner, or witness, tell your North Carolina Personal Injury Lawyer what was said and when, even if the exchange seemed routine.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Accuracy matters more than a polished narrative. Describe what you personally observed, distinguish it from what someone else told you, and identify any uncertainty instead of filling gaps with assumptions. Share prior communications about the event, including emails, text messages, recorded notices, and forms you signed, along with the names of people who may have relevant knowledge. A North Carolina Personal Injury Lawyer may also need to understand any earlier condition, related dispute, or agreement that could affect the matter, so do not omit an uncomfortable fact. Promptly correcting a mistake can help your North Carolina Personal Injury Lawyer evaluate the record and decide what follow-up questions are necessary.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/m591lFVE6YQ?si=FH0JEuqzUGdeAOlP" loading="lazy" title="North Carolina Personal Injury Lawyer video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Keep a private log of questions, deadlines, conversations, and documents delivered after the consultation. Respond to requests in a timely way, use secure channels when sensitive material is involved, and ask before deleting or editing relevant files. If your circumstances change, such as a new address, treatment provider, insurer contact, or settlement proposal, provide an update rather than assuming the change is unimportant. Consistent communication gives the North Carolina Personal Injury Lawyer a reliable basis for advising you as the matter develops.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Unusual Injuries Need Focused Advocacy</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Certain injury claims involve symptoms, diagnoses, or contributing conditions that are difficult to explain through ordinary assumptions. A North Carolina Personal Injury Lawyer can help organize the medical and technical questions surrounding the matter while keeping the client's account grounded in verifiable information. This may involve examining how a product was designed, how a facility was maintained, or how an exposure occurred. When the facts cross professional boundaries, North Carolina Personal Injury Lawyer may coordinate input from qualified specialists who can explain the connection between the event and the resulting condition.</p>
+                            <p>Effective representation should also account for the way recovery may unfold over time. Symptoms can change, treatment plans can be revised, and an initial diagnosis may not describe the full effect of an injury. North Carolina Personal Injury Lawyer may help translate clinical information into a clear account of functional limitations, expected care, and personal consequences. In addition, North Carolina Personal Injury Lawyer can evaluate whether records from manufacturers, institutions, or other organizations reveal information relevant to responsibility without relying on speculation or overstated conclusions.</p>
+                            <p>A practical legal strategy leaves room for new medical findings and changing circumstances. Regular explanations can help a client understand available options, likely challenges, and the purpose of major decisions without creating unrealistic expectations. North Carolina Personal Injury Lawyer may pursue a resolution that recognizes both present needs and longer-term effects through negotiation, litigation, or another suitable avenue. Clear, respectful communication throughout the process can strengthen trust and support an accurate presentation of the claim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>CR Legal</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.9293118954624!2d-80.8412645736771!3d35.05850636392971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569f8f6efc7e49%3A0xbd40cfe7515784e2!2sCR%20Legal%20Team!5e0!3m2!1sen!2sin!4v1791449235540!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">CR Legal</p>
+                    <p style="color: #000000;"> 11525 North Community House Road, Everett Building, Suite 350,
+Charlotte, NC 28277, United States</p>
+                    <p style="color: #000000;">1 704-567-4529</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">CR Legal</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="North-Carolina-Personal-Injury-Lawyer.html" rel="noopener">Company Website</a></li>    <li><a class="link-light footer-link" href="https://www.crlegalteam.com/" rel="noopener">https://www.crlegalteam.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm"></h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Useful Links</a></li>    <li><a class="link-light footer-link" href="https://www.crlegalteam.com/" rel="noopener"></a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/MsHDs3bc744N1UJr5" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="facebook.com/crlegalteam" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://www.instagram.com/crlegalteam/" rel="noopener">Instagram</a></li>    <li><a class="link-light footer-link" href="linkedin.com/company/cr-legalteam-llp" rel="noopener">Linkedin</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="North Carolina. United States">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>North Carolina. United States</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://ua.news/en/technologies/prezident-tramp-anonsuvav-1-5-mlrd-na-chipi-v-pivnichnii-karolini-the-hill" target="_blank" rel="noopener noreferrer"><h3>President Trump announces $1.5 billion for chips in North Carolina</h3><img src="https://cdn-cabinet.ua.news/uploads/images/trump_announced_1_5bn_for_chips_in_north_1792547394882.webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Donald Trump said the Pentagon will invest $1.5 billion to expand advanced semiconductor chip production in North Carolina.</p><div class="safe-news-meta">ua.news - 3h</div></a><a class="safe-news-card" href="https://www.averyjournal.com/classifieds/community/public_notices/state-of-north-carolina-county-of-avery/ad_3cee0324-2f3e-5fc9-886a-c936ef7098f5.html" target="_blank" rel="noopener noreferrer"><h3>STATE OF NORTH CAROLINA COUNTY OF AVERY</h3><img src="https://bloximages.chicago2.vip.townnews.com/averyjournal.com/content/tncms/assets/v3/classifieds/9/fd/9fdd791f-0d3a-5d17-b4cf-c64381071734/6ad84df20b55e.image.jpg?crop=225%2C225%2C0%2C2023&amp;resize=200%2C200&amp;order=crop%2Cresize" alt="" loading="lazy" referrerpolicy="no-referrer"><p>STATE OF NORTH CAROLINA COUNTY OF AVERY IN THE GENERAL COURT OF JUSTICE SUPERIOR COURT DIVISION FILE NO. 26SP000310-050 NOTICE OF SUBSTITUTE TRUSTEE’S FORECLOSURE SALE OF REAL PROPERTY IN THE</p><div class="safe-news-meta">averyjournal.com - 3h</div></a><a class="safe-news-card" href="https://www.carolinacoastonline.com/news_times/article_59a1fafc-1af6-444e-b6c8-81a338f2964f.html" target="_blank" rel="noopener noreferrer"><h3>US Supreme Court closes Blackbeard copyright dispute</h3><img src="https://bloximages.chicago2.vip.townnews.com/carolinacoastonline.com/content/tncms/assets/v3/editorial/a/0a/a0a73c16-9bd1-470b-aa06-c337e928dd07/6ad78e4b6dec9.image.jpg?crop=1766%2C927%2C0%2C123&amp;resize=1200%2C630&amp;order=crop%2Cresize" alt="" loading="lazy" referrerpolicy="no-referrer"><p>BEAUFORT — After years of legal battles, the US Supreme Court will not take a second look at a copyright dispute involving North Carolina state government and the recovery of</p><div class="safe-news-meta">carolinacoastonline.com - 3h</div></a><a class="safe-news-card" href="https://www.ntd.com/trump-lutnick-reveal-new-semiconductor-investments-in-north-carolina_1180296.html" target="_blank" rel="noopener noreferrer"><h3>Trump, Lutnick Reveal New Semiconductor Investments in North Carolina</h3><img src="https://i.ntd.com/assets/uploads/2026/10/id1180297-Trump-Lutnick-GettyImages-2301225064.jpg-900x506.webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Administration officials made the announcements during a rally in the northeastern part of the state.</p><div class="safe-news-meta">ntd.com - 3h</div></a><a class="safe-news-card" href="https://thehill.com/homenews/administration/6161642-trump-pentagon-semiconductor-investment/" target="_blank" rel="noopener noreferrer"><h3>Trump says Pentagon will invest $1.5 billion into North Carolina chip production</h3><img src="https://thehill.com/wp-content/uploads/sites/2/2026/10/AP26293687668059-e1792527246409.jpg?w=1280" alt="" loading="lazy" referrerpolicy="no-referrer"><p>President Trump on Tuesday announced a $1.5 billion dollar investment from the Pentagon to expand semiconductor production in North Carolina, as the administration pushes to reshore manufacturing t…</p><div class="safe-news-meta">thehill.com - 6h</div></a><a class="safe-news-card" href="https://ua.news/en/world/sud-dozvoliv-obmezhennia-poshtovogo-golosuvannia-u-pivnichnii-karolini-the-hill" target="_blank" rel="noopener noreferrer"><h3>Court allows restrictions on mail-in voting in North Carolina</h3><img src="https://cdn-cabinet.ua.news/uploads/images/north_carolina_mail_in_ballot_rules_rema_1792532902030.webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>A federal judge allowed North Carolina to retain stricter mail-in voting rules introduced before the November elections, citing the late timing of the legal challenge.</p><div class="safe-news-meta">ua.news - 7h</div></a><a class="safe-news-card" href="https://www.themirror.com/news/politics/trump-slams-hecklers-losers-interrupted-2077853" target="_blank" rel="noopener noreferrer"><h3>Trump slams hecklers as &#x27;losers&#x27; as he is interrupted 3 times at North Carolina rally</h3><img src="https://i2-prod.themirror.com/article2077905.ece/ALTERNATES/s1200/1_US-POLITICS-TRUMP.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>President Donald Trump once again faced down hecklers, this time in North Carolina at a rally meant to boost Republican candidates before the midterms</p><div class="safe-news-meta">themirror.com - 7h</div></a><a class="safe-news-card" href="https://www.pbs.org/newshour/politics/watch-live-trump-holds-gop-midterm-rally-in-north-carolina" target="_blank" rel="noopener noreferrer"><h3>WATCH LIVE: Trump holds GOP midterm rally in North Carolina</h3><img src="https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-20T214826Z_332595450_RC297OAZ1QAZ_RTRMADP_3_USA-TRUMP-NORTHCAROLINA-1024x683.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Early voting got underway in North Carolina last week, a key state in Democrats&#x27; efforts to retake control of Congress.</p><div class="safe-news-meta">pbs.org - 9h</div></a><a class="safe-news-card" href="https://simplywall.st/stocks/us/capital-goods/nyse-cat/caterpillar/news/caterpillar-cat-expands-in-north-carolina-as-investors-ask-i" target="_blank" rel="noopener noreferrer"><h3>Caterpillar (CAT) Expands In North Carolina As Investors Ask If The Stock Is A Bargain</h3><img src="https://images.simplywall.st/asset/company-cover/259378-card/1788992402874?w=1600&amp;h=900&amp;fit=cover" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Caterpillar (CAT) is back in focus after committing about US$1b to expand its Cat Compact manufacturing footprint in North Carolina, including a new Sanford facility aimed at meeting rising compact equipment demand. Caterpillar’s recent expansion news comes after a choppy stretch for the stock, with the share price falling about 6% over the past week and 10% over the last month. Despite this pullback, the stock still shows a 21.2% year-to-date share price gain and a 39.1% one-year total...</p><div class="safe-news-meta">simplywall.st - 10h</div></a><a class="safe-news-card" href="https://www.witn.com/2026/10/20/kinston-basketball-coach-named-north-carolina-coach-year/" target="_blank" rel="noopener noreferrer"><h3>Kinston basketball coach named North Carolina Coach of the Year</h3><img src="https://gray-witn-prod.gtv-cdn.com/resizer/v2/54F5QKNX6ZH4PF4CTPKLWKURDM.png?auth=fd337b203a230545c45aa371c47d06450f739baae00c6df3c1c7c24d1a94999e&amp;width=1200&amp;height=600&amp;smart=true" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Perry Tyndall was named the North Carolina Coach of the Year in men’s basketball for 2025-2026.</p><div class="safe-news-meta">witn.com - 10h</div></a><a class="safe-news-card" href="https://www.newsbreak.com/raleigh-news-observer-1592485/4957275999423-trump-campaigns-in-nc-as-battleground-district-shifts-toward-democrats" target="_blank" rel="noopener noreferrer"><h3>Trump campaigns in NC as battleground district shifts toward Democrats</h3><img src="https://img.particlenews.com/img/id/0hPyhv_1GI3Wq5m00" alt="" loading="lazy" referrerpolicy="no-referrer"><p>With two weeks before Election Day, President Donald Trump stumped Tuesday night in Greenville for U.S. Senate candidate Michael Whatley and 1st Congressio</p><div class="safe-news-meta">newsbreak.com - 10h</div></a><a class="safe-news-card" href="https://www.newsbreak.com/raleigh-news-observer-1592485/4957275999423-live-updates-trump-arrives-in-nc-as-battleground-district-shifts-toward-democrats" target="_blank" rel="noopener noreferrer"><h3>Live updates: Trump arrives in NC as battleground district shifts toward Democrats</h3><img src="https://img.particlenews.com/img/id/3aQawz_1GI3Wq5m00" alt="" loading="lazy" referrerpolicy="no-referrer"><p>With two weeks before Election Day, President Donald Trump is stumping Tuesday night in Greenville for U.S. Senate candidate Michael Whatley and 1st Congre</p><div class="safe-news-meta">newsbreak.com - 10h</div></a><a class="safe-news-card" href="https://www.washingtonpost.com/politics/2026/10/20/gop-has-pulled-north-carolina-money-trump-will-rally-whatley/" target="_blank" rel="noopener noreferrer"><h3>Trump to rally in North Carolina, even as GOP pulls its money</h3><img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PD2IIW7DYMHUIGR2FBWULKFFFU.JPG&amp;w=1440" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Michael Whatley, the state’s Republican Senate candidate, owes his nomination to Trump; the president continues to invest time, if not cash, on his behalf.</p><div class="safe-news-meta">washingtonpost.com - 11h</div></a><a class="safe-news-card" href="https://cardinalpine.com/news/money-jobs/scam-losses-top-1-billion-north-carolina/" target="_blank" rel="noopener noreferrer"><h3>Scam losses topped $1 billion in North Carolina over five years</h3><img src="https://cardinalpine.com/wp-content/uploads/sites/11/2026/10/AP26288548877516.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The amount of money reported as lost increased every year from 2021 through 2025. It rose from about $95 million in 2021 to just over $342 million in 2025.</p><div class="safe-news-meta">cardinalpine.com - 12h</div></a><a class="safe-news-card" href="https://abc11.com/post/vote-2026-president-trump-returns-north-carolina-early-voting-turnout-surges-statewide-midterm-elections/19959513/" target="_blank" rel="noopener noreferrer"><h3>Vote 2026: President Trump returns to North Carolina as early voting turnout surges</h3><img src="https://cdn.abcotvs.com/dip/images/19841596_091626-wtvd-trump-ap-gastonia-img.jpg?w=1600" alt="" loading="lazy" referrerpolicy="no-referrer"><p>President Donald Trump is scheduled to make remarks at the Pitt-Greenville Airport at 7:00 p.m.</p><div class="safe-news-meta">abc11.com - 12h</div></a><a class="safe-news-card" href="https://www.jpost.com/diaspora/antisemitism/article-912324" target="_blank" rel="noopener noreferrer"><h3>University of North Carolina, US Justice Dept. reach settlement to end antisemitism probe</h3><img src="https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/570463" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The inquiries spanned complaints involving discrimination, campus climate issues, and how the institution handled allegations of antisemitism.</p><div class="safe-news-meta">jpost.com - 13h</div></a><a class="safe-news-card" href="https://www.wbtv.com/2026/10/20/watch-breaking-down-north-carolina-general-assembly-supermajority-makeup-this-2026-election/" target="_blank" rel="noopener noreferrer"><h3>Watch: Breaking down North Carolina General Assembly, supermajority makeup this 2026 election</h3><img src="https://gray-wbtv-prod.gtv-cdn.com/resizer/v2/JTQLJVXUMZE37KUPZMFEVECT2E.jpg?auth=4711e8efbe170eaea58831eb836f91d9f87a50c0aeace1d3fd5384d80cdd579a&amp;width=1200&amp;height=600&amp;smart=false&amp;focal=1773%2C1895" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Republicans are protecting a supermajority in the General Assembly this fall.</p><div class="safe-news-meta">wbtv.com - 13h</div></a><a class="safe-news-card" href="https://sports.yahoo.com/articles/north-carolina-flag-football-rankings-180420819.html" target="_blank" rel="noopener noreferrer"><h3>North Carolina flag football rankings: USA TODAY Sports Super 10, Week 7</h3><img src="https://s.yimg.com/lo/mysterio/api/2276f5adddf637093a1479a31d894555bc302eade681f0c39a990c4299ecc283/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F6a2b0a176c84d31b7516073d3ca657b8.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>As flag football season continues in North Carolina, these teams sit atop this week’s Super 10 rankings.</p><div class="safe-news-meta">sports.yahoo.com - 13h</div></a><a class="safe-news-card" href="https://euobserver.com/243724/the-us-is-no-longer-an-ally-its-over/" target="_blank" rel="noopener noreferrer"><h3>The US is no longer an ally. It’s over.</h3><img src="https://static.euobserver.com/2026/10/Screenshot-2026-10-20-at-12.08.35-2400x1148.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Even an eventual change of American leadership doesn&#x27;t mean the US&#x27;s bizarre glorification of violence goes away. It is a persistent stain, constantly eroding away at the values of an open and free society. Both are worth defending here in Europe. The US has chosen its on path. Let it walk it alone.</p><div class="safe-news-meta">euobserver.com - 13h</div></a><a class="safe-news-card" href="https://www.wccbcharlotte.com/2026/10/20/reports-of-scam-losses-topped-1-billion-in-north-carolina-over-five-years/" target="_blank" rel="noopener noreferrer"><h3>Reports of scam losses topped $1 billion in North Carolina over five years</h3><img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.wccbcharlotte.com/content/uploads/2025/01/c/a/money.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Scam-related losses reported by North Carolina consumers topped $1 billion over five years, according to an analysis of Federal Trade Commission data provided to Enlace Latino NC by The Associated Press.</p><div class="safe-news-meta">wccbcharlotte.com - 14h</div></a><a class="safe-news-card" href="https://www.washingtonpost.com/education/2026/10/20/university-north-carolina-reaches-deal-with-trump-administration/" target="_blank" rel="noopener noreferrer"><h3>University of North Carolina reaches deal with Trump administration</h3><img src="https://www.washingtonpost.com/wp-apps/imrs.php?src=https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fwapo%2FFSXU7OCKVRC6TAQSUR4KVWBTFM.jpg&amp;w=1200" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The agreement does not require UNC at Chapel Hill to pay any money to the federal government. It closes multiple investigations and ensures the school is eligible for federal funding.</p><div class="safe-news-meta">washingtonpost.com - 14h</div></a><a class="safe-news-card" href="https://www.breitbart.com/politics/2026/10/20/trump-to-tout-america-first-immigration-victories-north-carolina-highlighting-arrests-sex-offenders-child-abusers/" target="_blank" rel="noopener noreferrer"><h3>Exclusive: Trump to Tout &#x27;America First&#x27; Immigration Victories in North Carolina</h3><img src="https://media.breitbart.com/media/2026/10/55601878695_0a9b8b107a_o-640x335.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>President Donald Trump is set to tout his &quot;America First&quot; immigration victories at a rally in Greenville, North Carolina, this evening.</p><div class="safe-news-meta">breitbart.com - 14h</div></a><a class="safe-news-card" href="https://www.wxxv25.com/reports-of-scam-losses-topped-1-billion-in-north-carolina-over-five-years/" target="_blank" rel="noopener noreferrer"><h3>Reports of scam losses topped $1 billion in North Carolina over five years</h3><img src="https://wpcdn.us-east-1.vip.tn-cloud.net/www.wxxv25.com/content/uploads/2026/10/q/m/money.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>By ESTEFANÍA PINTO RUIZ/Enlace Latino NC Scam-related losses reported by North Carolina consumers topped $1 billion over five years, according to an analysis of Federal Trade Commission data provided to Enlace Latino NC by The Associated Press. The amount of money reported as lost increased every year from 2021 through 2025. It rose from about $95 million in 2021 to...</p><div class="safe-news-meta">wxxv25.com - 14h</div></a><a class="safe-news-card" href="https://spectrumlocalnews.com/nc/charlotte/news/2026/10/20/midterm-roy-cooper-whatley-trump" target="_blank" rel="noopener noreferrer"><h3>On the road: Could Democrats make gains in battleground North Carolina?</h3><img src="https://s7d2.scene7.com/is/image/TWCNews/Reuben2" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Spectrum News Washington Reporter Reuben Jones, who covers the North Carolina congressional delegation in D.C., spent a week on the road in the state.</p><div class="safe-news-meta">spectrumlocalnews.com - 15h</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
